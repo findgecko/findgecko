@@ -1,0 +1,595 @@
+/* ========== 尋守宮 像素風樣式表 ==========
+   配色：
+   - 米白底 #FBF2EA
+   - 深咖文字 #5C3530
+   - 中咖強調 #AC6E4F
+   - 淺黃高亮 #FFEECC
+=========================================== */
+
+/* --- 像素風中文字體（Cubic 11，免費繁體像素字體） --- */
+@font-face {
+  font-family: 'Cubic 11';
+  src: url('https://cdn.jsdelivr.net/gh/ACh-K/Cubic-11@main/fonts/web/Cubic_11.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/ACh-K/Cubic-11@main/fonts/web/Cubic_11.woff') format('woff');
+  font-display: swap;
+}
+
+/* --- 全域重置 --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+body {
+  font-family: 'Cubic 11', 'Noto Sans TC', -apple-system, sans-serif;
+  background-color: #FBF2EA;
+  color: #5C3530;
+  line-height: 1.7;
+  font-size: 16px;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(92, 53, 48, 0.08) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+/* --- Header --- */
+header {
+  background-color: #5C3530;
+  color: #FBF2EA;
+  padding: 24px 32px;
+  border-bottom: 4px solid #AC6E4F;
+  box-shadow: 0 4px 0 0 #AC6E4F;
+  margin-bottom: 8px;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFEECC;
+  letter-spacing: 4px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+  display: block;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #FBF2EA;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  transition: all 0.15s;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #FFEECC;
+  color: #5C3530;
+  border: 2px solid #FFEECC;
+  box-shadow: 3px 3px 0 0 #AC6E4F;
+}
+
+/* --- 主容器 --- */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.page-title {
+  font-size: 32px;
+  color: #5C3530;
+  margin-bottom: 8px;
+  border-bottom: 4px solid #AC6E4F;
+  padding-bottom: 12px;
+  display: inline-block;
+}
+
+.page-subtitle {
+  font-size: 16px;
+  color: #AC6E4F;
+  margin-bottom: 32px;
+}
+
+/* --- Grid 列表 --- */
+.gecko-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.gecko-card {
+  background-color: #FBF2EA;
+  border: 4px solid #5C3530;
+  box-shadow: 6px 6px 0 0 #AC6E4F;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.gecko-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 0 #AC6E4F;
+}
+
+.gecko-card.sold {
+  opacity: 0.6;
+}
+
+.gecko-card.sold:hover {
+  transform: none;
+  box-shadow: 6px 6px 0 0 #AC6E4F;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #FFEECC;
+  border-bottom: 4px solid #5C3530;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-image .placeholder-icon {
+  font-size: 64px;
+  color: #AC6E4F;
+}
+
+.status-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #5C3530;
+  box-shadow: 2px 2px 0 0 #5C3530;
+  z-index: 2;
+  letter-spacing: 1px;
+}
+
+.status-available {
+  background-color: #C8E6C9;
+  color: #2E5C2E;
+}
+
+.status-reserved {
+  background-color: #FFE082;
+  color: #6B4F00;
+}
+
+.status-sold {
+  background-color: #BDBDBD;
+  color: #424242;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-id {
+  font-size: 12px;
+  color: #AC6E4F;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.card-morph {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5C3530;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.card-price {
+  font-size: 16px;
+  color: #AC6E4F;
+  font-weight: bold;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 2px dashed #AC6E4F;
+}
+
+/* --- 詳細頁 --- */
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .product-detail {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.main-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #FFEECC;
+  border: 4px solid #5C3530;
+  box-shadow: 6px 6px 0 0 #AC6E4F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-photo .placeholder-icon {
+  font-size: 120px;
+  color: #AC6E4F;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.thumbnail {
+  aspect-ratio: 1 / 1;
+  background-color: #FFEECC;
+  border: 3px solid #5C3530;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.15s;
+}
+
+.thumbnail:hover,
+.thumbnail.active {
+  box-shadow: 3px 3px 0 0 #AC6E4F;
+  transform: translate(-2px, -2px);
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-header {
+  border-bottom: 4px solid #5C3530;
+  padding-bottom: 16px;
+}
+
+.info-id {
+  font-size: 14px;
+  color: #AC6E4F;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.info-morph {
+  font-size: 36px;
+  color: #5C3530;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.info-price {
+  font-size: 28px;
+  color: #AC6E4F;
+  font-weight: bold;
+}
+
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFEECC;
+  border: 3px solid #5C3530;
+}
+
+.spec-table tr {
+  border-bottom: 2px dashed #AC6E4F;
+}
+
+.spec-table tr:last-child {
+  border-bottom: none;
+}
+
+.spec-table th,
+.spec-table td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.spec-table th {
+  width: 30%;
+  font-size: 14px;
+  color: #AC6E4F;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.spec-table td {
+  font-size: 16px;
+  color: #5C3530;
+  font-weight: bold;
+}
+
+.note-box {
+  background-color: #FFEECC;
+  border: 3px solid #5C3530;
+  padding: 16px;
+}
+
+.note-title {
+  font-size: 14px;
+  color: #AC6E4F;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.note-content {
+  font-size: 16px;
+  color: #5C3530;
+  white-space: pre-wrap;
+}
+
+/* --- CTA 按鈕（IG 私訊） --- */
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px 24px;
+  background-color: #5C3530;
+  color: #FFEECC;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border: 4px solid #5C3530;
+  box-shadow: 6px 6px 0 0 #AC6E4F;
+  letter-spacing: 2px;
+  transition: all 0.15s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cta-button:hover {
+  background-color: #AC6E4F;
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 0 #5C3530;
+}
+
+.cta-button.disabled {
+  background-color: #BDBDBD;
+  border-color: #757575;
+  box-shadow: 6px 6px 0 0 #757575;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* --- 交易注意事項頁 --- */
+.about-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.about-section {
+  background-color: #FFEECC;
+  border: 4px solid #5C3530;
+  box-shadow: 6px 6px 0 0 #AC6E4F;
+  padding: 28px;
+  margin-bottom: 32px;
+}
+
+.about-section h2 {
+  font-size: 22px;
+  color: #5C3530;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 3px dashed #AC6E4F;
+}
+
+.about-section p,
+.about-section li {
+  font-size: 16px;
+  color: #5C3530;
+  line-height: 1.8;
+}
+
+.about-section ul {
+  padding-left: 24px;
+  margin-top: 8px;
+}
+
+.about-section ul li {
+  margin-bottom: 8px;
+}
+
+.highlight {
+  background-color: #FBF2EA;
+  padding: 2px 8px;
+  border: 2px solid #AC6E4F;
+  font-weight: bold;
+}
+
+/* --- 返回按鈕 --- */
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  background-color: #FFEECC;
+  color: #5C3530;
+  text-decoration: none;
+  border: 3px solid #5C3530;
+  box-shadow: 3px 3px 0 0 #AC6E4F;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: all 0.15s;
+}
+
+.back-link:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 0 #AC6E4F;
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #5C3530;
+  color: #FFEECC;
+  padding: 32px 24px 40px;
+  text-align: center;
+  margin-top: 80px;
+  border-top: 4px solid #AC6E4F;
+}
+
+footer p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+footer .footer-brand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFEECC;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+footer a {
+  color: #FFEECC;
+  text-decoration: underline;
+}
+
+/* --- 社群連結（IG / LINE 各自一行） --- */
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.social-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 20px;
+  color: #FFEECC !important;
+  text-decoration: none !important;
+  border: 2px solid #FFEECC;
+  background-color: transparent;
+  letter-spacing: 2px;
+  font-size: 15px;
+  transition: all 0.15s;
+  min-width: 280px;
+  justify-content: flex-start;
+}
+
+.social-row:hover {
+  background-color: #FFEECC;
+  color: #5C3530 !important;
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 0 #AC6E4F;
+}
+
+.social-row:hover .social-icon-svg {
+  stroke: #5C3530;
+  fill-current: #5C3530;
+}
+
+.social-icon-svg {
+  width: 32px;
+  height: 32px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.social-label {
+  font-weight: bold;
+}
+
+
+/* --- 空狀態 --- */
+.empty-state {
+  text-align: center;
+  padding: 80px 24px;
+  color: #AC6E4F;
+}
+
+.empty-state-icon {
+  font-size: 80px;
+  margin-bottom: 16px;
+}
+
+/* --- 載入中 --- */
+.loading {
+  text-align: center;
+  padding: 80px 24px;
+  color: #AC6E4F;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
