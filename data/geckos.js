@@ -563,6 +563,22 @@ window.GECKOS_DATA = {
         "IMG_6087.jpg",
         "IMG_6088.jpg"
       ]
+    },
+    {
+      "id": "J2",
+      "morph": "立奧無",
+      "sex": "母",
+      "birth": "2026/1/21",
+      "weight": "",
+      "price": "",
+      "status": "available",
+      "note": "",
+      "photos": [
+        "main.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg"
+      ]
     }
   ]
 };
