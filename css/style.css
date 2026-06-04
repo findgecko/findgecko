@@ -606,3 +606,23 @@ footer a {
 #adopt-grid {
   margin-bottom: 56px;
 }
+
+/* ===== 限時通知列 ===== */
+.announcement-bar {
+  background-color: #FFD24C;
+  color: #5C3530;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px 16px;
+  border-bottom: 4px solid #5C3530;
+}
+
+@media (max-width: 480px) {
+  .announcement-bar {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 9px 12px;
+  }
+}
