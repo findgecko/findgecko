@@ -45,7 +45,7 @@ function renderAdoptGrid(list) {
       : '';
 
     return `
-      <div class="gecko-card static ${isAdopted ? 'sold' : ''}">
+      <a href="adopt-detail.html?id=${encodeURIComponent(g.id)}" class="gecko-card ${isAdopted ? 'sold' : ''}">
         <div class="card-image">
           <span class="status-badge ${status.className}">${status.label}</span>
           ${mainPhoto
@@ -57,7 +57,7 @@ function renderAdoptGrid(list) {
           <div class="card-morph">${escapeHtml(g.morph)}</div>
           ${noteHtml}
         </div>
-      </div>
+      </a>
     `;
   }).join('');
 }
