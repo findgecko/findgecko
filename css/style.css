@@ -601,3 +601,8 @@ footer a {
   line-height: 1.6;
   margin-top: 4px;
 }
+
+/* ===== 認養專區：卡片列表與下方說明區塊間距 ===== */
+#adopt-grid {
+  margin-bottom: 56px;
+}
