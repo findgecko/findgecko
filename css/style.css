@@ -469,10 +469,12 @@ main {
 }
 
 .highlight {
-  background-color: #FBF2EA;
-  padding: 2px 8px;
-  border: 2px solid #AC6E4F;
   font-weight: bold;
+  color: #5C3530;
+  background: linear-gradient(transparent 58%, #FFD24C 58%);
+  padding: 0 2px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 /* --- 返回按鈕 --- */
