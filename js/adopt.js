@@ -40,9 +40,6 @@ function renderAdoptGrid(list) {
       ? `images/${g.id}/${g.photos[0]}`
       : '';
     const isAdopted = g.status === 'adopted';
-    const noteHtml = g.note
-      ? `<div class="card-note">${escapeHtml(g.note)}</div>`
-      : '';
 
     return `
       <a href="adopt-detail.html?id=${encodeURIComponent(g.id)}" class="gecko-card ${isAdopted ? 'sold' : ''}">
@@ -55,7 +52,6 @@ function renderAdoptGrid(list) {
         <div class="card-body">
           <div class="card-id">編號 ${escapeHtml(g.id)}</div>
           <div class="card-morph">${escapeHtml(g.morph)}</div>
-          ${noteHtml}
         </div>
       </a>
     `;
