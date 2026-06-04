@@ -6,15 +6,19 @@
 
 window.ADOPTS_DATA = {
   "adopts": [
-    // 範例（可直接刪除這段或複製改值）：
-    // {
-    //   "id": "A1",
-    //   "morph": "立奧無",
-    //   "sex": "母",
-    //   "birth": "2024/5/1",
-    //   "status": "adoptable",
-    //   "note": "退役種母，親人好養。",
-    //   "photos": ["main.jpg"]
-    // }
+    {
+      "id": "AH-3",
+      "morph": "奧帶無",
+      "sex": "母",
+      "birth": "2026/3/17",
+      "status": "adoptable",
+      "note": "NG 左後腿殘缺，不影響正常進食與成長\n小厚道\n圓尾",
+      "photos": [
+        "IMG_5969.jpg",
+        "IMG_5970.jpg",
+        "IMG_5971.jpg",
+        "IMG_5972.jpg"
+      ]
+    }
   ]
 };
