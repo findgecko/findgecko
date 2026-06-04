@@ -12,7 +12,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5911.jpg",
         "IMG_5912.jpg",
@@ -28,7 +28,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5916.jpg",
         "IMG_5917.jpg",
@@ -44,7 +44,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5921.jpg",
         "IMG_5922.jpg",
@@ -60,7 +60,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "微厚道",
+      "note": "微厚道\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5926.jpg",
         "IMG_5927.jpg",
@@ -76,7 +76,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5933.jpg",
         "IMG_5935.jpg",
@@ -92,7 +92,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5938.jpg",
         "IMG_5939.jpg",
@@ -108,7 +108,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "不吃飼料",
+      "note": "不吃飼料\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5943.jpg",
         "IMG_5945.jpg",
@@ -124,7 +124,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "小 NG 頭歪歪，不影響正常進食與成長\n紋路空心的非常漂亮的寶寶",
+      "note": "小 NG 頭歪歪，不影響正常進食與成長\n紋路空心的非常漂亮的寶寶\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5948.jpg",
         "IMG_5949.jpg",
@@ -140,7 +140,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "厚道",
+      "note": "厚道\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5954.jpg",
         "IMG_5956.jpg",
@@ -156,7 +156,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5960.jpg",
         "IMG_5961.jpg",
@@ -172,7 +172,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5965.jpg",
         "IMG_5966.jpg",
@@ -188,7 +188,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "微厚道\n性格非常穩定，從小發色漂亮，尾巴胖胖",
+      "note": "微厚道\n性格非常穩定，從小發色漂亮，尾巴胖胖\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5974.jpg",
         "IMG_5975.jpg",
@@ -204,7 +204,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5979.jpg",
         "IMG_5980.jpg",
@@ -220,7 +220,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "厚道",
+      "note": "厚道\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5984.jpg",
         "IMG_5985.jpg",
@@ -236,7 +236,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5988.jpg",
         "IMG_5989.jpg",
@@ -252,7 +252,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5992.jpg",
         "IMG_5993.jpg",
@@ -268,7 +268,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5996.jpg",
         "IMG_5997.jpg",
@@ -284,7 +284,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6005.jpg",
         "IMG_6006.jpg",
@@ -300,7 +300,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6009.jpg",
         "IMG_6010.jpg",
@@ -316,7 +316,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "厚道",
+      "note": "厚道\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6014.jpg",
         "IMG_6015.jpg",
@@ -332,7 +332,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6019.jpg",
         "IMG_6021.jpg",
@@ -348,7 +348,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "小厚道",
+      "note": "小厚道\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6025.jpg",
         "IMG_6026.jpg",
@@ -364,7 +364,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6030.jpg",
         "IMG_6031.jpg",
@@ -380,7 +380,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6034.jpg",
         "IMG_6035.jpg",
@@ -396,7 +396,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6039.jpg",
         "IMG_6041.jpg",
@@ -412,7 +412,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6044.jpg",
         "IMG_6045.jpg",
@@ -428,7 +428,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6048.jpg",
         "IMG_6049.jpg",
@@ -444,7 +444,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6052.jpg",
         "IMG_6053.jpg",
@@ -460,7 +460,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6057.jpg",
         "IMG_6058.jpg",
@@ -476,7 +476,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6061.jpg",
         "IMG_6062.jpg",
@@ -492,7 +492,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6065.jpg",
         "IMG_6066.jpg",
@@ -508,7 +508,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6070.jpg",
         "IMG_6071.jpg",
@@ -524,7 +524,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6074.jpg",
         "IMG_6075.jpg",
@@ -540,7 +540,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6080.jpg",
         "IMG_6081.jpg",
@@ -556,7 +556,7 @@ window.GECKOS_DATA = {
       "weight": "",
       "price": "",
       "status": "available",
-      "note": "",
+      "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6085.jpg",
         "IMG_6086.jpg",
