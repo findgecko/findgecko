@@ -593,3 +593,20 @@ footer a {
   font-size: 18px;
   letter-spacing: 2px;
 }
+
+/* ===== 認養專區：非連結卡片與備註 ===== */
+.gecko-card.static {
+  cursor: default;
+}
+
+.gecko-card.static:hover {
+  transform: none;
+  box-shadow: 6px 6px 0 0 #AC6E4F;
+}
+
+.card-note {
+  font-size: 14px;
+  color: #5C3530;
+  line-height: 1.6;
+  margin-top: 4px;
+}
