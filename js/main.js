@@ -2,7 +2,7 @@
 
 const STATUS_MAP = {
   available: { label: '可預訂', className: 'status-available' },
-  reserved:  { label: '已預訂', className: 'status-reserved' },
+  reserved:  { label: '預訂中', className: 'status-reserved' },
   sold:      { label: '已售出', className: 'status-sold' }
 };
 
