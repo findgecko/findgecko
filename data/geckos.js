@@ -91,7 +91,7 @@ window.GECKOS_DATA = {
       "birth": "2026/3/4",
       "weight": "",
       "price": "",
-      "status": "reserved",
+      "status": "sold",
       "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5938.jpg",
