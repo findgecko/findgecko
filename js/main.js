@@ -35,7 +35,17 @@ function renderGrid(geckos) {
     return;
   }
 
-  grid.innerHTML = geckos.map(g => {
+  // 已售出的寶寶排到清單最末（其餘維持原本順序）
+  const sorted = geckos
+    .map((g, i) => [g, i])
+    .sort((a, b) => {
+      const aSold = a[0].status === 'sold' ? 1 : 0;
+      const bSold = b[0].status === 'sold' ? 1 : 0;
+      return aSold - bSold || a[1] - b[1];
+    })
+    .map(pair => pair[0]);
+
+  grid.innerHTML = sorted.map(g => {
     const status = STATUS_MAP[g.status] || STATUS_MAP.available;
     const mainPhoto = g.photos && g.photos[0]
       ? `images/${g.id}/${g.photos[0]}`
