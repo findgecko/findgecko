@@ -62,7 +62,7 @@ function renderGrid(geckos) {
         <div class="card-image">
           <span class="status-badge ${status.className}">${status.label}</span>
           ${mainPhoto
-            ? `<img src="${mainPhoto}" alt="${escapeHtml(g.morph)} ${escapeHtml(g.id)}">`
+            ? `<img src="${mainPhoto}" alt="${escapeHtml(g.morph)} ${escapeHtml(g.id)}" loading="lazy" decoding="async">`
             : `<span class="placeholder-icon">?</span>`}
         </div>
         <div class="card-body">

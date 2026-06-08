@@ -93,14 +93,14 @@ function renderProduct(gecko) {
 
   // 主圖 + thumbnails
   const mainPhotoHtml = photos.length > 0
-    ? `<img id="main-photo-img" src="${photos[0]}" alt="${escapeHtml(gecko.morph)} ${escapeHtml(gecko.id)}">`
+    ? `<img id="main-photo-img" src="${photos[0]}" alt="${escapeHtml(gecko.morph)} ${escapeHtml(gecko.id)}" decoding="async">`
     : `<span class="placeholder-icon">?</span>`;
 
   const thumbsHtml = photos.length > 1
     ? `<div class="thumbnails">
          ${photos.map((p, i) => `
            <div class="thumbnail ${i === 0 ? 'active' : ''}" data-src="${p}">
-             <img src="${p}" alt="thumbnail ${i + 1}">
+             <img src="${p}" alt="thumbnail ${i + 1}" loading="lazy" decoding="async">
            </div>
          `).join('')}
        </div>`
