@@ -11,7 +11,7 @@ window.ADOPTS_DATA = {
       "morph": "奧帶無",
       "sex": "母",
       "birth": "2026/3/17",
-      "status": "adoptable",
+      "status": "adopted",
       "note": "NG 左後腿殘缺，不影響正常進食與成長\n小厚道\n圓尾\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5969.jpg",
