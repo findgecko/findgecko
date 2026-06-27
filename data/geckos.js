@@ -347,7 +347,7 @@ window.GECKOS_DATA = {
       "birth": "2026/3/5",
       "weight": "",
       "price": "",
-      "status": "available",
+      "status": "sold",
       "note": "小厚道\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_6025.jpg",
