@@ -107,7 +107,7 @@ window.GECKOS_DATA = {
       "birth": "2026/3/17",
       "weight": "",
       "price": "",
-      "status": "available",
+      "status": "sold",
       "note": "不吃飼料\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5943.jpg",
@@ -123,7 +123,7 @@ window.GECKOS_DATA = {
       "birth": "2026/3/16",
       "weight": "",
       "price": "",
-      "status": "available",
+      "status": "sold",
       "note": "小 NG 頭歪歪，不影響正常進食與成長\n紋路空心的非常漂亮的寶寶\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5948.jpg",
