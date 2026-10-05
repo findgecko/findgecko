@@ -139,7 +139,7 @@ window.GECKOS_DATA = {
       "birth": "2026/3/25",
       "weight": "",
       "price": "",
-      "status": "available",
+      "status": "sold",
       "note": "厚道\n照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5954.jpg",
@@ -203,7 +203,7 @@ window.GECKOS_DATA = {
       "birth": "2026/4/21",
       "weight": "",
       "price": "",
-      "status": "available",
+      "status": "reserved",
       "note": "照片拍攝於 2026.6.4",
       "photos": [
         "IMG_5979.jpg",
